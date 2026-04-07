@@ -9,7 +9,7 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Chitranshu0\&layout=compact\&hide_border=true)
 -->
 
-🎯 **Computer Science Student**
+🎯 **CS Student**
 <br>
 ⚙️ AI everywhere, Data Science at the core
 
@@ -26,8 +26,9 @@ My core interests:
 * 🧠 Programming, Machine Learning, Deep Learning, NLP & LLMs
 * ⚙️ End-to-end AI systems (LLMs, RAG, automation pipelines)
 * 📊 Data, experimentation, and scalable systems
+* 🔁 MLOps fundamentals and CI/CD for reliable model deployment
 
-I’m particularly drawn to Generative AI — understanding how models learn patterns, represent knowledge, and generate meaningful outputs. This directly shapes how I design systems: not just accurate, but useful and practical.
+I’m particularly drawn to Generative AI and MLOps — understanding how models learn patterns, represent knowledge, and generate meaningful outputs, and how to take them from experiments to production through robust pipelines. This directly shapes how I design systems: not just accurate, but useful and practical.
 
 What I focus on:
 
@@ -39,21 +40,53 @@ What I focus on:
 
 ## 🛠️ What I Work With
 
-**Core**
-Python, SQL, C/C++, JavaScript
+### Core
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+</p>
 
-**AI / ML**
-PyTorch, TensorFlow, Scikit-learn, XGBoost
-NLP, Transformers, Computer Vision, Robotics
+### AI / ML
+<p align="left">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+  <img src="https://img.shields.io/badge/XGBoost-EC6B23?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/NLP-4B8BBE?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Transformers-FFB000?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Computer%20Vision-5C3EE8?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Robotics-0A66C2?style=for-the-badge"/>
+</p>
 
-**LLM & GenAI**
-RAG, Fine-tuning (LoRA), LangChain, Hugging Face
+### LLM & GenAI
+<p align="left">
+  <img src="https://img.shields.io/badge/RAG-00A67E?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/LoRA-8A2BE2?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/LangChain-121D33?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/HuggingFace-FFCA28?style=for-the-badge&logo=huggingface&logoColor=black"/>
+</p>
 
-**Data Engineering & Systems**
-PySpark, Airflow, Data Lakes
+### Data Engineering & Systems
+<p align="left">
+  <img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Data%20Lakes-2E8B57?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge"/>
+</p>
 
-**Backend & Infra**
-FastAPI, Docker, APIs, Cloud (Azure, GCP)
+### Backend & Infra
+<p align="left">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/APIs-FF6F61?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
+</p>
+
+---
 
 ---
 
@@ -89,10 +122,20 @@ I like taking things from:
 
 ## 🌐 Connect With Me
 
-* 💼 LinkedIn: [https://linkedin.com/in/chitranshu-sanket](https://linkedin.com/in/chitranshu-sanket)
-* 🧑‍💻 GitHub: [https://github.com/Chitranshu0](https://github.com/Chitranshu0)
-* 🐦 Twitter/X: [https://x.com/ChitranshuSinha](https://x.com/ChitranshuSinha)
-* 📧 Email: [chitranshusanket@zohomail.in](mailto:chitranshusanket@zohomail.in)
+<p align="left">
+  <a href="https://linkedin.com/in/chitranshu-sanket">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://github.com/Chitranshu0">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://x.com/ChitranshuSinha">
+    <img src="https://img.shields.io/badge/Twitter/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
+  </a>
+  <a href="mailto:chitranshusanket@zohomail.in">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
