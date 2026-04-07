@@ -17,9 +17,9 @@
 
 ## 🚀 About Me
 
-I enjoy thinking in systems and building things that actually work beyond theory.
+I’m someone who enjoys thinking in systems — whether it’s chess positions or machine learning models.
 
-Currently pursuing B.Tech in Computer Science (Data Science), I learn in a sequence — first understanding how models work, then building them from scratch, and finally turning them into systems that are usable in the real world.
+Currently pursuing B.Tech in Computer Science (Data Science), most of my time goes into learning step by step — first understanding how models work, then building them from scratch, and finally turning them into systems that are actually usable in the real world.
 
 My core interests:
 
