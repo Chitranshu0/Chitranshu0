@@ -10,6 +10,7 @@
 -->
 
 🎯 **Computer Science Student**
+<br>
 ⚙️ AI everywhere, Data Science at the core
 
 ---
