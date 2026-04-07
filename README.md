@@ -53,19 +53,19 @@ What I focus on:
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
   <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/XGBoost-EC6B23?style=for-the-badge"/>
+  <!-- <img src="https://img.shields.io/badge/XGBoost-EC6B23?style=for-the-badge"/> -->
   <img src="https://img.shields.io/badge/NLP-4B8BBE?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Transformers-FFB000?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Computer%20Vision-5C3EE8?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Robotics-0A66C2?style=for-the-badge"/>
+  <!-- <img src="https://img.shields.io/badge/Robotics-0A66C2?style=for-the-badge"/> -->
 </p>
 
 ### LLM & GenAI
 <p align="left">
-  <img src="https://img.shields.io/badge/RAG-00A67E?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/RAG-1ABC9C?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/LoRA-8A2BE2?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/LangChain-121D33?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/LangChain-121D33?style=for-the-badge&logo=chainlink&logoColor=00CED1"/>
+  <img src="https://img.shields.io/badge/LangGraph-2E4053?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Transformers-FFB000?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/HuggingFace-FFCA28?style=for-the-badge&logo=huggingface&logoColor=black"/>
 </p>
 
@@ -113,7 +113,7 @@ I like taking things from:
 ## 🧠 Beyond Coding
 
 * Active in **tech communities (Data Science, AI/ML)** and mentoring peers
-* Share thoughts on **tech, geopolitics, and ideas** on Twitter
+* Share thoughts on **tech, stock market, and ideas** on Twitter
 * ♟️ Play chess — enjoy strategy, analysis, and competitive thinking
 * 🌍 Love **travelling and trekking**, exploring new places and cultures
 * 📚 Read books around thinking, systems, and real-world insights
@@ -132,8 +132,11 @@ I like taking things from:
   <a href="https://x.com/ChitranshuSinha">
     <img src="https://img.shields.io/badge/Twitter/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
   </a>
-  <a href="mailto:chitranshusanket@zohomail.in">
+  <a href="mailto:sinhachitranshu40@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://leetcode.com/Chitranshu0/">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
   </a>
 </p>
 
