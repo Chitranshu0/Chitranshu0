@@ -4,8 +4,10 @@
 ![GitHub followers](https://img.shields.io/github/followers/Chitranshu0?label=Followers\&style=social)
 ![GitHub User's stars](https://img.shields.io/github/stars/Chitranshu0?style=social)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Chitranshu0\&show_icons=true\&hide_border=true)
+<!--
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Chitranshu0\&show_icons=true\&hide_border=true) 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Chitranshu0\&layout=compact\&hide_border=true)
+-->
 
 🎯 **Computer Science Student**
 ⚙️ AI everywhere, Data Science at the core
