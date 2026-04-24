@@ -8,8 +8,10 @@
 
 </p>
 
-<p align="center">
-🎯 <b>CS Student</b> &nbsp;&nbsp; | &nbsp;&nbsp; ⚙️ AI everywhere, Data Science at the core
+<p>
+🎯 <b>CS Student</b> 
+<br>
+⚙️ AI everywhere, Data Science at the core
 </p>
 
 ---
