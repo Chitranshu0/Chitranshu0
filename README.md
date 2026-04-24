@@ -126,6 +126,9 @@ Currently pursuing B.Tech in Computer Science (Data Science), focused on underst
 <a href="mailto:sinhachitranshu40@gmail.com">
 <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
+<a href="https://stackoverflow.com/users/23435209/chitranshu-sanket" target="_blank">
+<img src="https://img.shields.io/badge/Stack%20Overflow-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white"/>
+</a>
 <a href="https://leetcode.com/Chitranshu0/">
 <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
 </a>
