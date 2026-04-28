@@ -1,23 +1,30 @@
 \documentclass[a4paper,10pt]{article}
 
-\usepackage[margin=0.6in]{geometry}
+\usepackage[a4paper,top=0.5in,bottom=0.5in,left=0.5in,right=0.5in]{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 
+% Spacing control
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{2pt}
+\setlength{\parskip}{1pt}
 
+% Section formatting (compact)
 \titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{6pt}{4pt}
+\titlespacing{\section}{0pt}{4pt}{2pt}
 
-\setlist[itemize]{leftmargin=*, itemsep=1pt, topsep=2pt}
+% List compactness
+\setlist[itemize]{leftmargin=*, itemsep=0pt, topsep=1pt}
+
+% Prevent overflow issues
+\raggedbottom
+\sloppy
 
 \begin{document}
 
 %==================== HEADER ====================
 \begin{center}
-    {\LARGE \textbf{Chitranshu Sanket}} \\
+    {\LARGE \textbf{CHITRANSHU SANKET}} \\
     Bhubaneswar, Odisha \quad
     \textbar \quad +91 7088153650 \quad
     \textbar \quad \href{mailto:chitranshusanket@zohomail.in}{chitranshusanket@zohomail.in} \\
@@ -46,7 +53,7 @@ I am a \textbf{final-year Computer Science \& Engineering undergraduate} special
 
 \item Built and deployed a production-grade \textbf{RAG-based conversational AI system} using FastAPI, LangChain, and LangGraph, reducing manual workload by \textbf{70\%} (10+ hrs/week)
 
-\item Designed modular LLM pipelines using \textbf{LangChain Runnables}, custom tools, and \textbf{Prompt Templates}, with \textbf{Pydantic output parsers} for structured, schema-valid responses
+\item Designed modular LLM pipelines using \textbf{LangChain Runnables}, built custom \textbf{tools} and \textbf{Prompt Templates}, and implemented \textbf{Pydantic output parsers} for structured, schema-valid responses
 
 \item Improved \textbf{retrieval quality and accuracy} via asymmetric retrievers, optimized chunking, and embedding tuning, reducing hallucinations and increasing answer relevance
 
