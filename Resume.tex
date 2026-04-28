@@ -4,24 +4,20 @@
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
-\usepackage{tabularx}
-\usepackage{multicol}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{2pt}
 
-% Section formatting
 \titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{6pt}{4pt}
 
-% Bullet tightening
 \setlist[itemize]{leftmargin=*, itemsep=1pt, topsep=2pt}
 
 \begin{document}
 
 %==================== HEADER ====================
 \begin{center}
-    {\LARGE \textbf{CHITRANSHU SANKET}} \\
+    {\LARGE \textbf{Chitranshu Sanket}} \\
     Bhubaneswar, Odisha \quad
     \textbar \quad +91 7088153650 \quad
     \textbar \quad \href{mailto:chitranshusanket@zohomail.in}{chitranshusanket@zohomail.in} \\
@@ -30,67 +26,84 @@
     \href{https://github.com/Chitranshu0}{github.com/Chitranshu0}
 \end{center}
 
-%==================== EDUCATION ====================
-\section*{EDUCATION}
-
-\textbf{GANDHI INSTITUTE OF ENGINEERING AND TECHNOLOGY} \hfill Gunupur, Odisha \\
-Bachelor of Technology \hfill Expected April,2027 \\
-Major in Computer Science \& Engineering with Specialization in Data Science \hfill CGPA: 7/10
 
 %==================== SUMMARY ====================
 \section*{SUMMARY}
 
-I am a \textbf{final-year Computer Science \& Engineering undergraduate} specializing in \textbf{Data Science}, with strong foundations in \textbf{machine learning} and \textbf{data-driven modeling}. I have hands-on experience building \textbf{ML pipelines}, \textbf{optimization workflows}, and \textbf{Generative AI systems}, with exposure to \textbf{RAG architectures} and \textbf{automation}. Currently expanding my expertise in \textbf{MLOps} and \textbf{scalable system design}, I actively contribute to \textbf{workshops} and \textbf{tech communities}, bringing an \textbf{analytical mindset}. I love \textbf{chess} and am passionate about building \textbf{efficient AI systems} and improving \textbf{model efficiency} and \textbf{scalability}..
+\textbf{AI Engineering | Data Science | Generative AI}
+
+I am a \textbf{final-year Computer Science \& Engineering undergraduate} specializing in \textbf{Data Science}, with strong foundations in \textbf{machine learning} and \textbf{data-driven modeling}. I have hands-on experience building \textbf{ML pipelines}, \textbf{optimization workflows}, and \textbf{Generative AI systems}, with exposure to \textbf{RAG architectures} and \textbf{automation}. Currently expanding my expertise in \textbf{MLOps} and \textbf{scalable system design}, I actively contribute to \textbf{workshops} and \textbf{tech communities}, bringing an \textbf{analytical mindset}. I love \textbf{chess} and am passionate about building \textbf{efficient AI systems} and improving \textbf{model efficiency} and \textbf{scalability}.
+
 
 %==================== EXPERIENCE ====================
 \section*{WORK EXPERIENCE}
 
 \textbf{Bisy Group} \hfill Remote \\
-\textit{AI Engineering Intern | ML + RAG + Scalable Systems} \hfill May 2025 -- November 2025
+\textit{AI Engineering Intern | RAG + AI System Design}
+\hfill May 2025 -- Nov 2025
 
-\textbf{Content Automation \& Conversational AI System}
 \begin{itemize}
-\item Created a RAG-based chatbot and query system using FastAPI, LangChain, and LangGraph to handle social media and customer queries with human fallback; cut manual effort by 70\% (10+ hrs/week).
-\item Set up an automated content posting system using Google Sheets and Make.com, enabling event-based publishing on Instagram and LinkedIn for 60+ posts/week; improved delivery speed by 60\% for 5+ clients.
-\end{itemize}
 
-\textbf{Certificate Generation Platform}
-\begin{itemize}
-\item Automated 90\% of credential workflows using FastAPI, Supabase, and PySpark, processing 5K+ certificates with less than 2\% error rate
+\item Built and deployed a production-grade \textbf{RAG-based conversational AI system} using FastAPI, LangChain, and LangGraph, reducing manual workload by \textbf{70\%} (10+ hrs/week)
+
+\item Designed modular LLM pipelines using \textbf{LangChain Runnables}, custom tools, and \textbf{Prompt Templates}, with \textbf{Pydantic output parsers} for structured, schema-valid responses
+
+\item Improved \textbf{retrieval quality and accuracy} via asymmetric retrievers, optimized chunking, and embedding tuning, reducing hallucinations and increasing answer relevance
+
+\item Optimized \textbf{system performance} through async FastAPI pipelines, reducing latency and improving real-time conversational experience
+
+\item Built scalable automation systems (content pipeline + certificate generation) using FastAPI, Supabase, PySpark, and Make.com, handling \textbf{5K+ records} and \textbf{60+ workflows/week} with high reliability
+
 \end{itemize}
 
 %==================== PROJECTS ====================
 \section*{PROJECTS}
 
-\textbf{Ultrasound Nerve Segmentation using MobileNet-U-Net + Optuna} \hfill April 2026
+\textbf{Ultrasound Nerve Segmentation (U-Net + MobileNetV2)} \hfill Apr 2026
 \begin{itemize}
-\item Engineered U-Net and MobileNetV2-based deep learning models for ultrasound nerve segmentation on 5.6K+ medical images using PyTorch and CUDA acceleration, achieving $\sim$0.72+ Dice score with efficient localization
-\item Applied Optuna-driven hyperparameter optimization (learning rate, batch size) to improve model performance and training convergence in a medical imaging pipeline
+
+\item Developed a deep learning–based \textbf{medical image segmentation system} using U-Net with MobileNetV2 backbone on \textbf{5.6K+ ultrasound images}, achieving \textbf{~0.72 Dice score}
+
+\item Optimized training pipeline using \textbf{Optuna-based hyperparameter tuning} (learning rate, batch size), improving convergence stability and model performance
+
+\item Accelerated training and inference using \textbf{PyTorch + CUDA}, enabling efficient experimentation on large-scale imaging data
+
 \end{itemize}
 
-\textbf{Early-Onset Type 2 Diabetes Prediction \& Root Cause Analysis (ML + XAI)} \hfill December 2025
+
+\textbf{Type 2 Diabetes Prediction \& Root Cause Analysis (ML + XAI)} \hfill Dec 2025
 \begin{itemize}
-\item Built a scalable end-to-end ML pipeline on 4.7K+ records, integrating MICE imputation, feature engineering (HOMA-IR, TyG), and standardized preprocessing for high-quality data workflows
-\item Addressed class imbalance using SMOTE and optimized models via Optuna (Bayesian tuning), achieving $\sim$96.9\% accuracy, $\sim$99.5\% recall, ROC-AUC $\sim$0.98 with XgBoost
-\item Implemented explainable AI (SHAP, LIME) to drive root-cause analysis, uncovering key predictors (glucose, HbA1c, BMI, socioeconomic factors) for actionable, production-grade insights
+
+\item Built an end-to-end \textbf{machine learning pipeline} on \textbf{4.7K+ patient records}, including feature engineering (HOMA-IR, TyG) and robust data preprocessing
+
+\item Addressed class imbalance using \textbf{SMOTE} and optimized models via \textbf{Optuna}, achieving \textbf{96.9\% accuracy} and \textbf{99.5\% recall} with XGBoost
+
+\item Integrated \textbf{Explainable AI (SHAP, LIME)} to identify key risk factors, enabling interpretable and actionable clinical insights
+
 \end{itemize}
 
 %==================== SKILLS ====================
 \section*{SKILLS}
 
-\textbf{Programming Languages:} Python, R, C/C++, JavaScript, SQL \\
-\textbf{Data Engineering \& Infrastructure:} Data Lakes (S3, Azure Data Lake), PySpark, Airflow \\
-\textbf{Databases:} MySQL, PostgreSQL, MongoDB, Chroma, Pinecone \\
-\textbf{AI/ML:} Scikit-learn, Xgboost, PyTorch, TensorFlow, Optuna, NLTK, SpaCy, YOLO, OpenCV, Hugging Face, LangChain, LangGraph \\
-\textbf{Cloud:} Azure, GCP \\
-\textbf{Tools \& Frameworks:} React, Pydantic, FastAPI, Node.js, Docker, Git/GitHub, Excel
+\textbf{Programming:} Python, R, C/C++, JavaScript, SQL \textbar\ \textbf{Cloud:} Azure, GCP \\
+\textbf{AI/ML:} Scikit-learn, Xgboost, PyTorch, TensorFlow, Keras, Optuna, NLTK, YOLO, OpenCV, Hugging Face, LangChain, LangGraph \\
+\textbf{Data Engineering:} Data Lakes (S3, Azure Data Lake), PySpark, Airflow, ETL/ELT Pipelines, Data Modeling \textbar\ \textbf{Databases:} MySQL, PostgreSQL, MongoDB, Chroma, Pinecone \\
+\textbf{Tools \& Frameworks:} React, Pydantic, FastAPI, Node.js, Docker, Git/GitHub, MLflow, CI/CD, Experiment Tracking, Excel
+
+%==================== EDUCATION ====================
+\section*{EDUCATION}
+
+\textbf{GANDHI INSTITUTE OF ENGINEERING AND TECHNOLOGY} \hfill Gunupur, Odisha \\
+Bachelor of Technology \hfill Expected April 2027 \\
+Computer Science \& Engineering (Data Science) \hfill CGPA: 7/10
+
 
 %==================== ACTIVITIES ====================
-% ACTIVITIES
 \section*{ACTIVITIES}
+
 \textbf{Data Science Lead} (\href{https://gdg.community.dev/u/m534t4/}{Google Developer Group on Campus}) \textbar\ \textbf{Technical Head} (Data Science Club - DSC) \\
 \textbf{Research \& Development Team Member} (Student Association of Robotic Science - SARS) \textbar\ \textbf{Technical Core Member} (AI/ML Club) \\
-\textbf{Chess Player \& Mentor} (University Chess)
+\textbf{Chess Player \& Mentor} (University Chess Club)
 
 %==================== ADDITIONAL ====================
 \section*{ADDITIONAL}
