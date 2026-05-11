@@ -1,20 +1,22 @@
 \documentclass[a4paper,10pt]{article}
-
-\usepackage[a4paper,top=0.5in,bottom=0.5in,left=0.5in,right=0.5in]{geometry}
+\let\showhyphens\relax
+\usepackage[a4paper,top=0.45in,bottom=0.45in,left=0.5in,right=0.5in]{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\usepackage{babel}
 
 % Spacing control
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{1pt}
+\setlength{\parskip}{0pt}
 
 % Section formatting (compact)
-\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{4pt}{2pt}
+\titleformat{\section}{\normalsize\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{2pt}
 
 % List compactness
-\setlist[itemize]{leftmargin=*, itemsep=0pt, topsep=1pt}
+\setlist[itemize]{leftmargin=*, itemsep=0pt, topsep=0pt, parsep=0pt, partopsep=0pt}
 
 % Prevent overflow issues
 \raggedbottom
@@ -27,7 +29,7 @@
     {\LARGE \textbf{CHITRANSHU SANKET}} \\
     Bhubaneswar, Odisha \quad
     \textbar \quad +91 7088153650 \quad
-    \textbar \quad \href{mailto:chitranshusanket@zohomail.in}{chitranshusanket@zohomail.in} \\
+    \textbar \quad \href{mailto:sinhachitranshu40@gmail.com}{sinhachitranshu40@gmail.com} \\
     \href{https://www.linkedin.com/in/chitranshu-sanket}{linkedin.com/in/chitranshu-sanket}
     \textbar
     \href{https://github.com/Chitranshu0}{github.com/Chitranshu0}
@@ -39,69 +41,54 @@
 
 \textbf{AI Engineering | Data Science | Generative AI}
 
-I am a \textbf{Computer Science \& Engineering undergraduate} specializing in \textbf{Data Science}, with strong foundations in \textbf{machine learning} and \textbf{data-driven modeling}. I have hands-on experience building \textbf{ML pipelines}, \textbf{optimization workflows}, and \textbf{Generative AI systems}, with exposure to \textbf{RAG architectures} and \textbf{automation}. Currently expanding my expertise in \textbf{MLOps} and \textbf{scalable system design}, I actively contribute to \textbf{workshops} and \textbf{tech communities}, bringing an \textbf{analytical mindset}. I love \textbf{chess} and am passionate about building \textbf{efficient AI systems} and improving \textbf{model efficiency} and \textbf{scalability}.
+\textbf{Computer Science \& Engineering} undergraduate specializing in \textbf{Data Science}, with hands-on experience building \textbf{machine learning} and \textbf{Generative AI} applications. Worked on \textbf{RAG-based systems}, \textbf{LLM workflows}, and \textbf{AI automation pipelines} using \textbf{Python}, \textbf{FastAPI}, \textbf{LangChain}, and \textbf{PyTorch}. Currently expanding expertise in \textbf{MLOps} and \textbf{scalable AI system design} through projects and internship experience.
 
 
 %==================== EXPERIENCE ====================
 \section*{WORK EXPERIENCE}
-
 \textbf{Bisy Group} \hfill Remote/Hyderabad \\
 \textit{AI Engineering Intern | RAG + AI System Design}
 \hfill May 2025 -- Nov 2025
-
 \begin{itemize}
-
 \item Built and deployed a production-grade \textbf{RAG-based conversational AI system} using FastAPI, LangChain, and LangGraph, reducing manual workload by \textbf{70\%} (10+ hrs/week)
-
-\item Designed modular LLM pipelines using \textbf{LangChain Runnables}, built custom \textbf{tools} and \textbf{Prompt Templates}, and implemented \textbf{Pydantic output parsers} for structured, schema-valid responses
-
+\item Designed modular \textbf{LLM pipelines} using \textbf{LangChain Runnables} with custom \textbf{tools}, \textbf{Prompt Templates}, and \textbf{Pydantic output parsers} for structured, schema-valid responses
 \item Improved \textbf{retrieval quality and accuracy} via asymmetric retrievers, optimized chunking, and embedding tuning, reducing hallucinations and increasing answer relevance
-
-\item Optimized \textbf{system performance} through async FastAPI pipelines, reducing latency and improving real-time conversational experience
-
-\item Built scalable automation systems (content pipeline + certificate generation) using FastAPI, Supabase, PySpark, and Make.com, handling \textbf{5K+ records} and \textbf{60+ workflows/week} with high reliability
-
+\item Optimized \textbf{system performance} through async FastAPI pipelines, reducing response latency by \textbf{40\%} and improving real-time conversational experience
+\item Built scalable automation systems (content pipeline + certificate generation) using FastAPI, Supabase, PySpark, and webhook-based orchestration, handling \textbf{5K+ records} and \textbf{60+ workflows/week} with high reliability
 \end{itemize}
 
 %==================== PROJECTS ====================
 \section*{PROJECTS}
-
-\textbf{Job Radar AI | Python, LangGraph, Transformers, NLP, Vector Search \hfill \href{https://github.com/Chitranshu0/job-radar-ai}{[Link]}}  | Apr 2026
+\textbf{Job Radar AI} \ | \ Python, LangGraph, Transformers, NLP, Vector Search   \hfill \href{https://github.com/Chitranshu0/job-radar-ai}{\textbf{GitHub}} \ | \ Apr 2026
 \begin{itemize}
-
-\item Built an AI-powered system to \textbf{match resumes with job descriptions} using transformer-based semantic embeddings for accurate candidate-job alignment
-
-\item Developed a \textbf{Chrome extension} that detects job descriptions in real-time and triggers automated analysis with score visualization
-
-\item Designed a \textbf{FastAPI backend with analytics insights} (skill match, gap analysis, recommendations) for personalized evaluation
-
+\item Built an AI-powered \textbf{resume-job matching system} using \textbf{transformer-based semantic embeddings} and \textbf{NLP-based evaluation}, achieving \textbf{60--80\% alignment accuracy} across diverse job descriptions
+\item Developed a \textbf{Chrome extension} that detects job descriptions in real-time and triggers automated analysis with \textbf{score visualization and match breakdown}
+\item Designed a \textbf{FastAPI backend} delivering structured analytics — skill match percentage, gap analysis, and ranked recommendations — for actionable candidate evaluation
 \end{itemize}
 
-\textbf{Type 2 Diabetes Prediction \& Root Cause Analysis (ML + XAI) | Python \hfill \href{https://colab.research.google.com/drive/1ezmS7O8uzaDSUYd46a-CWHH5B3bJJ6Pi?usp=sharing}{[Link]}}  | Dec 2025
+\textbf{Type 2 Diabetes Prediction \& Root Cause Analysis (ML + XAI)} \ | \ Python  \hfill  \href{https://colab.research.google.com/drive/1ezmS7O8uzaDSUYd46a-CWHH5B3bJJ6Pi?usp=sharing}{\textbf{Colab}} \ | \ Dec 2025
 \begin{itemize}
-
-\item Built an end-to-end \textbf{machine learning pipeline} on \textbf{4.7K+ patient records}, including feature engineering (HOMA-IR, TyG) and robust data preprocessing
-
+\item Built an end-to-end \textbf{ML pipeline} on \textbf{4.7K+ patient records} with domain-driven feature engineering (\textbf{HOMA-IR, TyG index}) and robust data preprocessing
 \item Addressed class imbalance using \textbf{SMOTE} and optimized models via \textbf{Optuna}, achieving \textbf{76.9\% accuracy} and \textbf{79.5\% recall} with XGBoost
-
-\item Integrated \textbf{Explainable AI (SHAP, LIME)} to identify key risk factors, enabling interpretable and actionable clinical insights
-
+\item Integrated \textbf{Explainable AI (SHAP, LIME)} to surface key clinical risk factors, enabling interpretable and actionable insights for early diagnosis
 \end{itemize}
 
 %==================== SKILLS ====================
 \section*{SKILLS}
 
 \textbf{Programming:} Python, R, C/C++, JavaScript, SQL \textbar\ \textbf{Cloud:} Azure, GCP \\
-\textbf{AI/ML:} Scikit-learn, XGBoost, PyTorch, TensorFlow, Keras, Optuna, NLTK, YOLO, OpenCV, Hugging Face Transformers, LangChain, LangGraph \\
-\textbf{Data Engineering:} Data Lakes (S3, Azure Data Lake), PySpark, Airflow, ETL/ELT Pipelines \\ \textbf{Databases:} RDBMS (MySQL, PostgreSQL); NoSQL (MongoDB); BaaS (Supabase); Vector DB (Chroma, Pinecone) \\
-\textbf{Tools \& Frameworks:} React, Pydantic, FastAPI, Node.js, Docker, Git/GitHub, MLflow, CI/CD, Excel, Bash/Shell
+\textbf{AI/ML:} Scikit-learn, XGBoost, PyTorch, TensorFlow, Keras, Optuna, NLTK, YOLO, OpenCV, 
+Hugging Face Transformers, LangChain, LangGraph \\
+\textbf{Data Engineering:} PySpark, Airflow, ETL/ELT Pipelines, Data Lakes (S3, Azure Data Lake) \\
+\textbf{Databases:} MySQL, PostgreSQL, MongoDB, Supabase, Chroma, Pinecone \\
+\textbf{Tools \& Frameworks:} FastAPI, Pydantic, Docker, MLflow, CI/CD, Git/GitHub, Bash/Shell, Excel 
 
 %==================== EDUCATION ====================
 \section*{EDUCATION}
 
 \textbf{GANDHI INSTITUTE OF ENGINEERING AND TECHNOLOGY} \hfill Gunupur, Odisha \\
 Bachelor of Technology \hfill Expected April 2027 \\
-Computer Science \& Engineering (Data Science) \hfill CGPA: 7.11/10
+Computer Science \& Engineering (Data Science) \hfill CGPA: 7.57/10
 
 
 %==================== ACTIVITIES ====================
@@ -115,7 +102,7 @@ Computer Science \& Engineering (Data Science) \hfill CGPA: 7.11/10
 %==================== ADDITIONAL ====================
 \section*{ADDITIONAL}
 
-\textbf{Languages}: Hindi, English, Spanish (Beginner) \\
+\textbf{Languages}: English, Hindi, Spanish (Beginner) \\
 \textbf{Achievement}: 3rd in WaterTech Hackathon \& 6th in Learnathon (GIET), 3rd in Micro-mouse in Technex (IIT BHU) \textbar\ Mentored: Workshops: Generative AI, Database 101, BuildwithAI, Hackathon: Techsprint \textbar\ \textbf{Sport}: Multiple positions in chess \textbar\ \textbf{Leetcode}: 120+ \\
 \textbf{Certifications \& Training}: 
 \href{https://www.credly.com/badges/17c90d86-9797-4798-a088-4dcf9361e75b/linked_in_profile}{Intro to Data Science (Cisco)}, 
