@@ -1,24 +1,27 @@
 \documentclass[a4paper,10pt]{article}
 \let\showhyphens\relax
-\usepackage[a4paper,top=0.45in,bottom=0.45in,left=0.5in,right=0.5in]{geometry}
+
+% Ultra-compact margins
+\usepackage[a4paper,top=0.18in,bottom=0.32in,left=0.28in,right=0.34in]{geometry}
+
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{microtype}
 \usepackage{babel}
 
-% Spacing control
+% Compact spacing
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 
-% Section formatting (compact)
+% Section formatting
 \titleformat{\section}{\normalsize\bfseries}{}{0em}{}[\titlerule]
-\titlespacing{\section}{0pt}{3pt}{2pt}
+\titlespacing{\section}{0pt}{2pt}{1pt}
 
-% List compactness
+% Tight item spacing
 \setlist[itemize]{leftmargin=*, itemsep=0pt, topsep=0pt, parsep=0pt, partopsep=0pt}
 
-% Prevent overflow issues
+% Better fitting
 \raggedbottom
 \sloppy
 
@@ -35,26 +38,36 @@
     \href{https://github.com/Chitranshu0}{ github.com/Chitranshu0}
 \end{center}
 
-
 %==================== SUMMARY ====================
 \section*{SUMMARY}
 
 \textbf{AI Engineering | Data Science | Generative AI}
 
-\textbf{Computer Science \& Engineering} undergraduate specializing in \textbf{Data Science}, with hands-on experience building \textbf{machine learning} and \textbf{Generative AI} applications. Worked on \textbf{RAG-based systems}, \textbf{LLM workflows}, and \textbf{AI automation pipelines} using \textbf{Python}, \textbf{FastAPI}, \textbf{LangChain}, and \textbf{PyTorch}. Currently expanding expertise in \textbf{MLOps} and \textbf{scalable AI system design} through projects and internship experience.
-
+\textbf{Computer Science \& Engineering} undergraduate specializing in \textbf{Data Science}, with hands-on experience building \textbf{machine learning} and \textbf{Generative AI} applications. Worked on \textbf{RAG-based systems}, \textbf{LLM workflows}, and \textbf{AI automation pipelines} using \textbf{Python}, \textbf{FastAPI}, \textbf{LangChain}, and \textbf{PyTorch}. Currently expanding expertise in \textbf{MLOps} and \textbf{scalable AI system design} through open-source projects and internship experience.
 
 %==================== EXPERIENCE ====================
 \section*{WORK EXPERIENCE}
+
 \textbf{Bisy Group} \hfill Remote/Hyderabad \\
 \textit{AI Engineering Intern | RAG + Prompt Engineering + AI System Design}
 \hfill May 2025 -- Nov 2025
+
 \begin{itemize}
 \item Built and deployed a production-grade \textbf{RAG-based conversational AI system} using FastAPI, LangChain, and LangGraph, reducing manual workload by \textbf{70\%} (10+ hrs/week)
 \item Designed modular \textbf{LLM pipelines} using \textbf{LangChain Runnables} with custom \textbf{tools}, \textbf{Prompt Templates}, and \textbf{Pydantic output parsers} for structured, schema-valid responses
 \item Improved \textbf{retrieval quality and accuracy} via asymmetric retrievers, optimized chunking, and embedding tuning, reducing hallucinations and increasing answer relevance
 \item Optimized \textbf{system performance} through async FastAPI pipelines, reducing response latency by \textbf{40\%} and improving real-time conversational experience
 \item Built scalable automation systems (content pipeline + certificate generation) using FastAPI, Supabase, PySpark, and webhook-based orchestration, handling \textbf{5K+ records} and \textbf{60+ workflows/week} with high reliability
+\end{itemize}
+
+\textbf{Open Source Contributor} \\
+\textit{GirlScript Summer of Code (GSSoC) | Nyay Setu}
+\hfill \href{https://github.com/viru0909-dev/nyay-setu-working/pull/249#pullrequestreview-4287195395}{\textbf{GitHub}} \ | \ May 2026
+
+\begin{itemize}
+\item Engineered and integrated a modular \textbf{Modi Script OCR pipeline} using \textbf{FastAPI, OpenCV, Hugging Face TrOCR, and PyTorch} for historical legal document digitization and Devanagari transliteration.
+
+\item Built production-ready \textbf{backend APIs} with \textbf{async inference, image preprocessing, validation handling, and scalable architecture integration} within an AI-powered legal assistance platform.
 \end{itemize}
 
 %==================== PROJECTS ====================
@@ -66,7 +79,7 @@
 \item Designed a \textbf{FastAPI backend} delivering structured analytics — skill match percentage, gap analysis, and ranked recommendations — for actionable candidate evaluation
 \end{itemize}
 
-\textbf{Type 2 Diabetes Prediction \& Root Cause Analysis (ML + XAI)} \ | \ Python  \hfill  \href{https://colab.research.google.com/drive/1ezmS7O8uzaDSUYd46a-CWHH5B3bJJ6Pi?usp=sharing}{\textbf{Colab}} \ | \ Dec 2025
+\textbf{Type 2 Diabetes Prediction \& Root Cause Analysis (ML + XAI)} \ | \ Python, Scikit-learn  \hfill  \href{https://colab.research.google.com/drive/1ezmS7O8uzaDSUYd46a-CWHH5B3bJJ6Pi?usp=sharing}{\textbf{Colab}} \ | \ Dec 2025
 \begin{itemize}
 \item Built an end-to-end \textbf{ML pipeline} on \textbf{4.7K+ patient records} with domain-driven feature engineering (\textbf{HOMA-IR, TyG index}) and robust data preprocessing
 \item Addressed class imbalance using \textbf{SMOTE} and optimized models via \textbf{Optuna}, achieving \textbf{76.9\% accuracy} and \textbf{79.5\% recall} with XGBoost
@@ -77,7 +90,7 @@
 \section*{SKILLS}
 
 \textbf{Programming:} Python, R, C/C++, JavaScript, SQL \textbar\ \textbf{Cloud:} Azure, GCP \\
-\textbf{AI/ML:} Scikit-learn, XGBoost, PyTorch, TensorFlow, Keras, Optuna, NLTK, YOLO, OpenCV, 
+\textbf{AI/ML:} Scikit-learn, PyTorch, TensorFlow, NLTK, YOLO, 
 Hugging Face Transformers, LangChain, LangGraph \\
 \textbf{Data Engineering:} PySpark, Airflow, ETL/ELT Pipelines, Data Lakes (S3, Azure Data Lake) \\
 \textbf{Databases:} MySQL, PostgreSQL, MongoDB, Supabase, Chroma, Pinecone \\
@@ -90,7 +103,6 @@ Hugging Face Transformers, LangChain, LangGraph \\
 Bachelor of Technology \hfill Expected April 2027 \\
 Computer Science \& Engineering (Data Science) \hfill CGPA: 7.57/10
 
-
 %==================== ACTIVITIES ====================
 \section*{ACTIVITIES}
 
@@ -99,11 +111,12 @@ Computer Science \& Engineering (Data Science) \hfill CGPA: 7.57/10
 \textbf{Research \& Development Team Member} (Student Association of Robotic Science - SARS) \textbar\, 
 \textbf{Chess Player \& Mentor} (Represented University in multiple Chess tournaments)
 
+
 %==================== ADDITIONAL ====================
 \section*{ADDITIONAL}
 
-\textbf{Languages}: English, Hindi, Spanish (Beginner) \\
-\textbf{Achievement}: 3rd in WaterTech Hackathon \& 6th in Learnathon (GIET), 3rd in Micro-mouse in Technex (IIT BHU) \textbar\ Mentored: Workshops: Generative AI, Database 101, BuildwithAI, Hackathon: Techsprint \textbar\ \textbf{Sport}: Multiple positions in chess \textbar\ \textbf{Leetcode}: 120+ \\
+\textbf{Languages}: English, Hindi, Spanish (Beginner) \textbar\ \textbf{Leetcode}: 120+\\
+\textbf{Achievement}: 3rd in WaterTech Hackathon \& 6th in Learnathon (GIET), 3rd in Micro-mouse in Technex (IIT BHU) \textbar\ Mentored: Workshops: Generative AI, Database 101, BuildwithAI, Hackathon: Techsprint \textbar\ \textbf{Sport}: Multiple positions in chess \\
 \textbf{Certifications \& Training}: 
 \href{https://www.credly.com/badges/17c90d86-9797-4798-a088-4dcf9361e75b/linked_in_profile}{Intro to Data Science (Cisco)}, 
 \href{https://www.credly.com/badges/5c756b63-478c-44eb-aea7-790aa632a77d/linked_in_profile}{ML for Data Science (IBM)}, 
@@ -118,5 +131,6 @@ Computer Science \& Engineering (Data Science) \hfill CGPA: 7.57/10
 \textbf{Job Simulation}: 
 \href{https://www.theforage.com/completion-certificates/Sj7temL583QAYpHXD/bWqaecPDbYAwSDqJy_Sj7temL583QAYpHXD_cpZg8yhrRH7eneAvf_1764855628544_completion_certificate.pdf}{Quantitative Research (JP Morgan)}, 
 \href{https://www.theforage.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_cpZg8yhrRH7eneAvf_1729277279654_completion_certificate.pdf}{Data Analytics \& Visualization (Accenture)}
+
 
 \end{document}
