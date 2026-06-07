@@ -21,7 +21,6 @@ Final-year B.Tech CSE (Data Science) student at GIET Gunupur, with hands-on expe
 ## Professional Highlights 🌟
 
 - **AI Engineering Intern** — Bisy Group (6 months) — Built production AI automation systems end-to-end
-- **Technical Head** — Data Science Club, GIET
 - **GSSoC Contributor** — Open-source contributions under GirlScript Summer of Code
 
 ---
