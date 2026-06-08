@@ -2,7 +2,7 @@
 \let\showhyphens\relax
 
 % Ultra-compact margins
-\usepackage[a4paper,top=0.18in,bottom=0.32in,left=0.28in,right=0.34in]{geometry}
+\usepackage[a4paper,top=0.5in,bottom=0.1in,left=0.4in,right=0.4in]{geometry}
 
 \usepackage{titlesec}
 \usepackage{enumitem}
@@ -48,21 +48,28 @@
 Bachelor of Technology in Computer Science \& Engineering (Data Science) \hfill Expected April 2027 \\
 Cumulative Grade Point Average \hfill \textbf{CGPA: 7.11/10}
 
+%==================== SKILLS ====================
+\section*{SKILLS}
+\textbf{Programming:} Python, C++, JavaScript, SQL, R \textbar\ \textbf{Cloud:} AWS, Azure\\
+\textbf{AI/ML:} Scikit-learn, PyTorch, TensorFlow, NLTK, YOLO, Hugging Face Transformers \\
+\textbf{LLM \& GenAI:} LangChain, LangGraph, LangSmith, RAG, MCP, LoRA, Fine-tuning \\
+\textbf{Databases:} MySQL, PostgreSQL, MongoDB, Supabase, Chroma, Pinecone \\
+\textbf{Tools \& Frameworks:} FastAPI, Docker, MLflow, PySpark, Apache Airflow, Git/GitHub, Bash/Shell, Excel
+
 %==================== EXPERIENCE ====================
 \section*{WORK EXPERIENCE}
 
 \textbf{Bisy Group} \hfill Remote/Hyderabad \\
 \textit{AI Engineering Intern | RAG + Prompt Engineering + AI System Design} \hfill May 2025 -- Nov 2025
 \begin{itemize}
-\item Built and deployed a production-grade \textbf{RAG-based conversational AI system} using FastAPI, LangChain, and LangGraph, reducing manual workload by \textbf{70\%} (10+ hrs/week)
-\item Designed modular \textbf{LLM pipelines} using \textbf{LangChain Runnables} with custom \textbf{tools}, \textbf{Prompt Templates}, and \textbf{Pydantic output parsers} for structured, schema-valid responses
-\item Improved \textbf{retrieval quality and accuracy} via asymmetric retrievers, optimized chunking, and embedding tuning, reducing hallucinations and increasing answer relevance
-\item Worked on scalable automation systems (content pipeline + certificate generation) using FastAPI, Azure Blob Storage, PySpark, and webhook-based orchestration, handling \textbf{5K+ records} and \textbf{60+ workflows/week} with high reliability
+\item Built and deployed a \textbf{RAG-based AI assistant} using FastAPI, LangChain, and LangGraph, reducing manual work by \textbf{70\%} (10+ hours/week).
 
-\vspace{2pt}
+\item Developed \textbf{LLM-powered workflows} with custom tools, prompts, and structured outputs, while improving response accuracy through retrieval and embedding optimization.
+
+\item Created scalable automation solutions using FastAPI, Azure Blob Storage, and PySpark, processing \textbf{5K+ records} and supporting \textbf{60+ workflows per week}.
 \end{itemize}
 \textbf{Open-Source Contributions} \\
-\textit{GirlScript Summer of Code (GSSoC) | Nyay Setu} \hfill \href{https://github.com/viru0909-dev/nyay-setu-working/pull/249#pullrequestreview-4287195395}{\textbf{GitHub}} \ | \ May 2026
+\textit{GirlScript Summer of Code (GSSoC) | Nyay Setu} \hfill \href{https://github.com/viru0909-dev/nyay-setu-working/pull/249#pullrequestreview-4287195395}{\textbf{[GitHub]}} \ | \ May 2026
 \begin{itemize}
     \item Engineered and integrated a modular \textbf{Modi Script OCR pipeline} using \textbf{FastAPI}, OpenCV, Hugging Face TrOCR, and PyTorch for historical legal document digitization and Devanagari transliteration.
     \item Built production-ready \textbf{backend APIs} featuring \textbf{asynchronous inference}, image preprocessing, validation handling, and scalable architecture integration within an AI-powered legal assistance platform.
@@ -70,28 +77,22 @@ Cumulative Grade Point Average \hfill \textbf{CGPA: 7.11/10}
 
 %==================== PROJECTS ====================
 \section*{PROJECTS}
-\textbf{Job Radar AI} \ | \ Python, LangGraph, Transformers, NLP, Vector Search \hfill \href{https://github.com/Chitranshu0/job-radar-ai}{\textbf{GitHub}} \ | \ Apr 2026
+\textbf{Job Radar AI} \ | \ Python, LangGraph, Transformers, NLP, Vector Search \hfill \href{https://github.com/Chitranshu0/job-radar-ai}{\textbf{[GitHub]}}
 \begin{itemize}
-\item Built an AI-powered \textbf{resume-job matching system} using \textbf{transformer-based semantic embeddings} and \textbf{NLP-based evaluation}, achieving \textbf{60--80\% alignment accuracy} across diverse job descriptions
-\item Developed a \textbf{Chrome extension} that detects job descriptions in real-time and triggers automated analysis with \textbf{score visualization and match breakdown}
-\item Designed a \textbf{FastAPI backend} delivering structured analytics (including skill match percentage, gap analysis, and ranked recommendations) for actionable candidate evaluation
+\item Built an AI-powered \textbf{resume-job matching system} using \textbf{transformer-based semantic embeddings} and \textbf{NLP evaluation}, achieving \textbf{60--80\% alignment accuracy}; developed a \textbf{Chrome extension} for real-time job description detection with \textbf{score visualization and match breakdown}
+\item Designed a \textbf{FastAPI backend} delivering structured analytics including \textbf{skill match percentage, gap analysis, and ranked recommendations} for actionable candidate evaluation
 \end{itemize}
 
 \vspace{2pt}
-\textbf{Type 2 Diabetes Prediction \& Root Cause Analysis (ML + XAI)} \ | \ Python, Scikit-learn \hfill  \href{https://colab.research.google.com/drive/1ezmS7O8uzaDSUYd46a-CWHH5B3bJJ6Pi?usp=sharing}{\textbf{Colab}} \ | \ Dec 2025
+\textbf{Type 2 Diabetes Prediction \& Root Cause Analysis (ML + XAI)} \ | \ Python, Scikit-learn, SHAP/LIME \hfill  \href{https://colab.research.google.com/drive/1Az2UStytGZSfXifVXz3vzlCuv6JcI8jF?usp=sharing}{\textbf{[Colab]}}
 \begin{itemize}
-\item Built an end-to-end \textbf{ML pipeline} on \textbf{4.7K+ patient records} with domain-driven feature engineering (\textbf{HOMA-IR, TyG index}) and robust data preprocessing
-\item Addressed class imbalance using \textbf{SMOTE} and optimized models via \textbf{Optuna}, achieving \textbf{76.9\% accuracy} and \textbf{79.5\% recall} with XGBoost
-\item Integrated \textbf{Explainable AI (SHAP, LIME)} to surface key clinical risk factors, enabling interpretable and actionable insights for early diagnosis
+\item Built an end-to-end \textbf{ML pipeline} on \textbf{27K+ patient records} with domain-driven feature engineering (\textbf{HOMA-IR, TyG Index}), training \textbf{Random Forest, and XGBoost} (Optuna-tuned), achieving \textbf{92.7\% accuracy}, \textbf{0.925 F1}, and \textbf{0.942 ROC-AUC}
+\item Performed \textbf{SMOTE vs original dataset} comparative experiments and integrated \textbf{SHAP/LIME} to surface key biomarkers and lifestyle factors influencing diabetes risk
 \end{itemize}
 
-%==================== SKILLS ====================
-\section*{SKILLS}
-\textbf{Programming:} Python, R, C++, JavaScript, SQL \textbar\ \textbf{Cloud:} Azure, GCP \\
-\textbf{AI/ML:} Scikit-learn, PyTorch, TensorFlow, NLTK, YOLO, Hugging Face Transformers, LangChain, LangGraph \\
-\textbf{Data Engineering:} PySpark, Airflow, ETL/ELT Pipelines, Data Lakes (S3, Azure Data Lake) \\
-\textbf{Databases:} MySQL, PostgreSQL, MongoDB, Supabase, Chroma, Pinecone \\
-\textbf{Tools \& Frameworks:} FastAPI, Pydantic, Docker, MLflow, CI/CD, Git/GitHub, Bash/Shell, Excel 
+%==================== PUBLICATIONS ====================
+\section*{PUBLICATIONS}
+\textbf{Deep Sentiment Analysis of Indian Political Discourse Using BERT} \ | \ ICAIET 3.0 (AISUMMIT-2026) \ \hfill \ \href{https://ieeexplore.ieee.org/stamp/stamp.jsp?}{\textbf{[IEEE]}}
 
 %==================== ACTIVITIES ====================
 \section*{ACTIVITIES}
@@ -100,7 +101,7 @@ Cumulative Grade Point Average \hfill \textbf{CGPA: 7.11/10}
 
 %==================== ADDITIONAL ====================
 \section*{ADDITIONAL DETAILS \& CERTIFICATIONS}
-\textbf{Profiles \& Languages:} LeetCode: 120+ Solved \textbar\ English, Hindi, Spanish (Beginner) \\
+\textbf{Profiles \& Languages:} \href{https://leetcode.com/u/Chitranshu0/}{LeetCode: 120+ Solved} \textbar\ English, Hindi, \href{https://www.duolingo.com/profile/Chitranshu0}{Spanish (Beginner)}\\
 \textbf{Achievements \& Leadership:} 3rd in WaterTech Hackathon (GIET) \textbar\ 6th in Learnathon (GIET) \textbar\ 3rd in Micro-mouse at Technex (IIT BHU) \textbar\ Delivered Workshops: Generative AI, Database 101, BuildwithAI \textbar\ Techsprint Mentor \\
 \textbf{Certifications:} 
 \href{https://www.credly.com/badges/17c90d86-9797-4798-a088-4dcf9361e75b/linked_in_profile}{Intro to Data Science (Cisco)}, 
