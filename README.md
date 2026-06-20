@@ -46,7 +46,7 @@ Final-year B.Tech CSE (Data Science) student at GIET Gunupur, with hands-on expe
 
 ## Education 🎓
 
-- B.Tech in Computer Science (Data Science specialization), GIET Gunupur *(2021 – 2025)*
+- B.Tech in Computer Science (Data Science specialization), GIET Gunupur *(2023 – 2027)*
 
 ---
 
