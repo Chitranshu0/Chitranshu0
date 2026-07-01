@@ -36,7 +36,6 @@ I build **AI agents, production-ready LLM applications, data platforms, MLOps pi
 <img alt="SQL" src="https://img.shields.io/badge/SQL-161B22?style=flat&logo=postgresql&logoColor=4169E1" />
 <img alt="C++" src="https://img.shields.io/badge/C++-161B22?style=flat&logo=cplusplus&logoColor=00599C" />
 <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-161B22?style=flat&logo=javascript&logoColor=F7DF1E" />
-<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-161B22?style=flat&logo=typescript&logoColor=3178C6" />
 <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-161B22?style=flat&logo=fastapi&logoColor=009688" />
 <img alt="Flask" src="https://img.shields.io/badge/Flask-161B22?style=flat&logo=flask&logoColor=FFFFFF" />
 <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-161B22?style=flat&logo=pytorch&logoColor=EE4C2C" />
@@ -56,9 +55,7 @@ I build **AI agents, production-ready LLM applications, data platforms, MLOps pi
 <img alt="MLflow" src="https://img.shields.io/badge/MLflow-161B22?style=flat&logo=mlflow&logoColor=0194E2" />
 <img alt="Apache Airflow" src="https://img.shields.io/badge/Airflow-161B22?style=flat&logo=apacheairflow&logoColor=017CEE" />
 <img alt="PySpark" src="https://img.shields.io/badge/PySpark-161B22?style=flat&logo=apachespark&logoColor=E25A1C" />
-<img alt="Azure" src="https://img.shields.io/badge/Azure-161B22?style=flat&logo=microsoftazure&logoColor=0078D4" />
-<img alt="GCP" src="https://img.shields.io/badge/GCP-161B22?style=flat&logo=googlecloud&logoColor=4285F4" />
-<img alt="Linux" src="https://img.shields.io/badge/Linux-161B22?style=flat&logo=linux&logoColor=FCC624" />
+<img alt="AWS" src="https://img.shields.io/badge/AWS-161B22?style=flat&logo=googlecloud&logoColor=4285F4" />
 </p>
 
 > *"Build from first principles. Learn in public. Ship relentlessly."* 🚀
