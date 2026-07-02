@@ -16,7 +16,7 @@
 
 I build **AI agents, production-ready LLM applications, data platforms, MLOps pipelines, and intelligent systems that bridge research with real-world impact.**
 
-▸ **AI Engineering Intern** · <a href="https://media.licdn.com/dms/image/v2/D562DAQGOPS6QsnSriA/profile-treasury-image-shrink_800_800/B56ZyWGDzMHgAY-/0/1772044698776?e=1783573200&v=beta&t=ycGauS3VUk6lH16vGOCngA5fr6r5EaPKZk77cgv3Lrw"><strong color: blue>[Bisy Group]</strong></a> Building end-to-end AI automation systems, GenAI applications, and workflows for real businesses<br/>
+▸ **AI Engineering Intern** · <a href="https://media.licdn.com/dms/image/v2/D562DAQGOPS6QsnSriA/profile-treasury-image-shrink_800_800/B56ZyWGDzMHgAY-/0/1772044698776?e=1783573200&v=beta&t=ycGauS3VUk6lH16vGOCngA5fr6r5EaPKZk77cgv3Lrw"><strong color: blue>[Bisy Group]</strong></a> Building end-to-end AI automation systems, GenAI applications, and workflows for businesses<br/>
 ▸ **Data Science Lead — GDG on Campus, GIET** · Organizing workshops, mentoring students, and growing the AI community on campus<br/>
 ▸ **GSSoC Contributor** · <a href="https://github.com/viru0909-dev/nyay-setu-working/pull/249"><strong color: blue>[Nyay-Setu]</strong></a> Contributing to open-source software while collaborating with developers across the globe<br/>
 ▸ **IEEE Author** · Published research on Transformer-based Political Sentiment Analysis<br/>
