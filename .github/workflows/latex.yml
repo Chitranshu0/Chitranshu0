@@ -3,11 +3,12 @@ name: Build Resume PDF
 on:
   push:
     paths:
-      - '**.tex'
-      - '**.bib'
-      - '**.cls'
-      - '**.sty'
-      - 'assets/**'
+      - "**/*.tex"
+      - "**/*.bib"
+      - "**/*.cls"
+      - "**/*.sty"
+      - "assets/**"
+      - ".github/workflows/latex.yml"
 
 jobs:
   build:
