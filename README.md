@@ -44,8 +44,6 @@ I build **AI agents, production-ready LLM applications, data platforms, MLOps pi
 <img alt="LangChain" src="https://img.shields.io/badge/LangChain-161B22?style=flat&logo=langchain&logoColor=2B6F4E" />
 <img alt="LangGraph" src="https://img.shields.io/badge/LangGraph-161B22?style=flat" />
 <img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-161B22?style=flat&logo=huggingface&logoColor=FFD21E" />
-<img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-161B22?style=flat&logo=openai&logoColor=FFFFFF" />
-<img alt="Gemini" src="https://img.shields.io/badge/Gemini-161B22?style=flat&logo=googlegemini&logoColor=8E75B2" />
 <img alt="Docker" src="https://img.shields.io/badge/Docker-161B22?style=flat&logo=docker&logoColor=2496ED" />
 <img alt="Git" src="https://img.shields.io/badge/Git-161B22?style=flat&logo=git&logoColor=F05032" />
 <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-161B22?style=flat&logo=githubactions&logoColor=2088FF" />
